@@ -1,0 +1,389 @@
+body {
+    background-color: #404040;
+    margin: 0 auto;
+}
+
+#root {
+    background-color: #282828;
+    height: 100%;
+}
+
+#header {
+    margin-top: 15px;
+    background-image: url('imgs/olin1blur.png');
+    background-size: 100%;
+    height: 200px;
+
+}
+
+.headerButtonGroup {
+    float: right;
+    margin-right: 50px;
+}
+.headerButton {
+    background-color: #404040;
+    border: none;
+}
+
+.headerButtonNewCount {
+    background-color: #a60c10;
+    border: none;
+}
+
+#mainLogo {
+    height: 150px;
+
+    position: relative;
+    top: 80px;
+}
+
+#flexContainer1 {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#sidebar {
+    background-color:  #404040;
+    color: #FFFFFF;
+    height: 500px;
+    width: 25%;
+
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-top: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sideBarButton {
+    margin-bottom: 10px;
+    width: 90%;
+    background-color: #282828;
+    border: none;
+}
+
+.sidebarTimeDate {
+    background-color: #404040;
+
+    width: 90%;
+}
+
+.time {
+    background-color: #282828;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.calendar {
+    background-color: #282828;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+}
+
+.day {
+    height: 1px;
+    background-color: red;
+}
+
+#mainContent {
+    background-color:  #404040;
+    height: 100%;
+
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    padding: 10px;
+}
+
+#latestCounts {
+    background-color:  #282828;
+    height: 200px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.redBanner {
+    background-color:  #a60c10;
+    color: #FFFFFF;
+    height: 25px;
+    margin-top: 10px;
+
+    text-align: center;
+}
+
+#busiestRooms {
+    background-color:#282828;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.newCountDisplay {
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counterWidget {
+    background-color:  #282828;
+    border-radius: 5px;
+    width: 45%;
+    height: 300px;
+    margin-left: 3%;
+}
+
+.counterActionButton {
+    width: 70px;
+    height: 70px;
+}
+
+.counterActionButton:active {
+    transform: translateY(-4px);
+  }
+
+.counterForm {
+    background-color:  #282828;
+    border-radius: 5px;
+    width: 45%;
+    height: 480px;
+    padding:10px;
+    padding-top: 40px;
+    margin-right: 3%;
+    overflow: auto;
+}
+
+.counterFormInputBoxes {
+    background-color: #404040;
+    color: #FFFFFF;
+    border: none;
+}
+
+.counterWidget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.widgetCountDisplay {
+    background-color: #404040;
+    border-radius: 5px;
+    width: 70%;
+    height: 50%;
+}
+
+.widgetButtons {
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.widgetCountDisplayText {
+    font-size: 6rem;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loginDisplay {
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loginBox {
+    padding: 10px;
+    height: 60%;
+    width: 70%;
+    background-color: #282828;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.loginFormInputBoxes {
+    background-color: #404040;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+.loginRedBanner {
+    background-color:  #a60c10;
+    color: #FFFFFF;
+    height: 50px;
+    width: 70%;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.loginButton {
+    margin-bottom: 10px;
+}
+
+.countTypeButtonGroup {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.countTypeButton {
+    margin-left: 5px;
+    background-color: #282828;
+}
+
+.messageBoard {
+    background-color: #282828;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.dashboard {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 800px;
+    background-color: #282828;
+
+}
+
+.dashboardHeader {
+    height: 150px;
+
+}
+
+.dashboardCloseButton {
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.dashboardLogo {
+    height: 150px;
+
+}
+
+.dashboardDisplayContainer {
+    width: 100%;
+    height: 700px;
+    background-color: #404040;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.dashboardDisplay {
+    padding: 10px;
+    width: 32.5%;
+    height: 200px;
+    background-color: #282828;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+    
+
+}
+
+.CountDisplay {
+    width: 19%;
+    height: 150px;
+    background-color: #404040;
+    color: #FFFFFF;
+    padding-top: 25px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.messageWidget {
+    width: 180%;
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+.messageWidgetInputBoxes {
+    margin-bottom: 10px;
+    width: 90%;
+    background-color: #404040;
+    color: #FFFFFF;
+    border: none;
+}
+
+.adminView {
+    background-color: #282828;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    height: 80%;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.w3-low {
+    background-color: #28A745;
+    height:24px;
+
+}
+
+.w3-mid {
+    background-color: #fcb164;
+    height:24px;
+
+}
+
+.w3-high {
+    background-color: #A60C10;
+    height:24px;
+
+}
